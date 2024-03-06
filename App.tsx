@@ -15,7 +15,7 @@ const TodoList = () => {
       {todos.length === 0 ? (
         <View style={style.container}>
           <View style={style.borderStyle} />
-          <Text style={style.textStyle}>No tasksss</Text>
+          <Text style={style.textStyle}>No tasks</Text>
           <View style={style.borderStyle} />
         </View>
       ) : (
